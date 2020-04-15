@@ -64,13 +64,13 @@ Had an argument during a video call?\n\
 Sent a sexually explicit message while on a video call?\n\
 Used Zoom to sext a member of the preferred sex?\n\
 Used an explicit photo/video as your virtual background during a Zoom call?\n\
+Stripped during a lecture?\n\
+Stripped while in a breakout session?\n\
+?\n\
 Watched pornography (muted) while in a call ?\n\
 Watched pornography (unmuted) while in a call ?\n\
 Watched pornography while sharing your screen?\n\
-?\n\
 Had sex while in a lecture call?\n\
-Stripped during a lecture?\n\
-Stripped while in a breakout session?\n\
 Played a stripping game with more than one person during a video call?\n\
 Flashed/Been flashed during a video call?\n\
 Held a Zoom call for the explicit purpose of camming?\n\
