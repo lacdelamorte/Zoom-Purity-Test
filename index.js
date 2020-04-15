@@ -1,9 +1,8 @@
-$(function(){
-  console.log("ready!");
+$(function() {
+  //Hide Score information
   $("#toShow").hide();
-  //#Source https://bit.ly/2neWfJ2
-  splitLines = str => str.split(/\r?\n/);
-  questions = splitLines("Called somebody in another time zone?\n\
+
+  questions = "Called somebody in another time zone?\n\
 Called somebody in another country?\n\
 Experienced awkward silence during a breakout session?\n\
 Fallen asleep during a video call?\n\
@@ -102,14 +101,15 @@ Drank alcohol while on a call?\n\
 Used lecture to play a drinking game?\n\
 Pregamed a video call?\n\
 Postgamed a video call?\n\
-Faked your sobriety to loved ones or teachers during a video call?");
-  console.log(questions)
+Faked your sobriety to loved ones or teachers during a video call?".split(/\r?\n/);
+
+  //Build list of questions
   ordered_list = document.getElementById("questions");
-  for (i = 0 ; i < questions.length; i++){
+  for (i = 0; i < questions.length; i++) {
     list_item = document.createElement("li");
     input = document.createElement("input")
     input.type = "checkbox";
-    input.id = i;
+    input.id = i + 1;
     list_item.appendChild(input);
     list_item.innerHTML += questions[i];
     ordered_list.appendChild(list_item);
@@ -131,5 +131,5 @@ $('#submit').click(function() {
 
 // On click of the reset button:
 $('#reset').click(function() {
-    $('input:checkbox').prop('checked',false);
+  $('input:checkbox').prop('checked', false);
 });
