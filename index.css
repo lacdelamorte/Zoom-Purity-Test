@@ -2,14 +2,14 @@
 TODO: Give the site a background
 TODO: Add a title
 TODO: Center the 'Your Score:' and score when submit
-TODO: Change the font color of score, likely with red
+TODO: Change the font color of score, likely with
 */
 
 #toShow{
   text-align: center;
 }
 #score{
-  color: red;
+  color: #F0706A;
 }
 body{
   background-image: url(images/blue-background.jpg);
