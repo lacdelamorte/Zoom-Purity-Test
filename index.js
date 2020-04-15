@@ -100,7 +100,6 @@ Postgamed a video call?\n\
 Faked your sobriety to loved ones or teachers during a video call?".split(/\r?\n/);
 
 $(function() {
-
   //Hide Score information
   $("#toShow").hide();
 
