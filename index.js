@@ -128,8 +128,15 @@ $('#submit').click(function() {
   $("#toHide").hide();
 });
 
-
 // On click of the reset button:
 $('#reset').click(function() {
   $('input:checkbox').prop('checked', false);
 });
+
+$('#calculate_again').click(function(){
+  //Hide Score
+  $("#toShow").hide();
+  $('#toHide').show();
+  //Reset checkboxes
+  $('input:checkbox').prop('checked', false);
+})
