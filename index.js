@@ -1,8 +1,4 @@
-$(function() {
-  //Hide Score information
-  $("#toShow").hide();
-
-  questions = "Called somebody in another time zone?\n\
+questions = "Called somebody in another time zone?\n\
 Called somebody in another country?\n\
 Experienced awkward silence during a breakout session?\n\
 Fallen asleep during a video call?\n\
@@ -102,6 +98,11 @@ Used lecture to play a drinking game?\n\
 Pregamed a video call?\n\
 Postgamed a video call?\n\
 Faked your sobriety to loved ones or teachers during a video call?".split(/\r?\n/);
+
+$(function() {
+
+  //Hide Score information
+  $("#toShow").hide();
 
   //Build list of questions
   ordered_list = document.getElementById("questions");
